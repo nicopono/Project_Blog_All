@@ -1,0 +1,18 @@
+form {
+    margin-top: 20px;
+}
+
+div {
+    margin-top: 50px;
+    font-family: Helvetica, sans-serif;
+}
+
+p {
+    border: 1px solid #ddd;
+    padding: 3px;
+    margin: 1px;
+}
+
+p:hover {
+    background-color: rgb(142, 178, 212);
+}
