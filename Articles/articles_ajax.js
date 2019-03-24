@@ -78,7 +78,7 @@ function updateArticle() {
        var content = art.contentdB;
 
        var zzz = document.getElementById("article_"+id);
-       zzz.innerHTML = title + " " + content;
+       zzz.innerHTML = title + " " + content + " " + '<button onclick="readArticle("'+ art + '")">Read</button>' + '<button onclick="deleteArticle("'+ id + '")">Delete</button>';
 
     //    zzz.innerHTML = zzz.innerHTML+"<button onclick='readArticle()>Read</button>(article_"+id+")'>";
     //    zzz.innerHTML += "(article_"+id+")";

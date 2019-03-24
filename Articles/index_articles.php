@@ -36,7 +36,7 @@
         <h2>Articles:</h2>
 
         //* Path to file using WAMP in order to display foreach in HTML 
-        <?php include_once ('C:\wamp64\www\Project_Blog_All\Articles\controllers\show_all_articles.php'); ?>
+        <?php include_once ('C:\wamp64\www\GitHub\Project_Blog_All\Articles\controllers\show_all_articles.php'); ?>
 
 
         <?php foreach ($article_tables as $key => $article_x): ?>
